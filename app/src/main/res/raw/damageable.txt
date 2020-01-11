@@ -1,0 +1,10 @@
+# list of all items that can take on damage
+# format: begin ID - end ID, decimal
+256-259
+261
+267-279
+283-286
+290-294
+298-317
+359
+

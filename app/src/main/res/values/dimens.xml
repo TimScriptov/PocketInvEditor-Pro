@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="grid_width">160.0dip</dimen>
+<dimen name="grid_height">176.0dip</dimen>
+<dimen name="grid_item_width">160.0dip</dimen>
+<dimen name="grid_item_height">176.0dip</dimen>
+<dimen name="grid_item_padding">4.0dip</dimen>
+<dimen name="grid_padding_horiz">4.0dip</dimen>
+<dimen name="grid_padding_vert">4.0dip</dimen>
+<dimen name="text_size_subhead">16.0sp</dimen>
+<dimen name="text_size_caption">12.0sp</dimen>
+</resources>

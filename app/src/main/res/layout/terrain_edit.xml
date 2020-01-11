@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<include
+			layout="@layout/terrain_xyz"/>
+
+		<include
+			layout="@layout/terrain_size"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:textSize="16.0sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_coords_to_player"/>
+
+			<Button
+				android:id="@+id/terrain_coords_to_player"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_coords_to_player_head"/>
+
+			<Button
+				android:id="@+id/terrain_coords_to_player_feet"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_coords_to_player_feet"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_select_whole_world"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_select_whole_world"/>
+
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/terrain_autoselect"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_autoselect"/>
+
+		<Button
+			android:id="@+id/terrain_analyze"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_analyze"/>
+
+		<Button
+			android:id="@+id/terrain_setblocks"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_setblocks"/>
+
+		<Button
+			android:id="@+id/terrain_replaceblocks"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_replaceblocks"/>
+
+		<Button
+			android:id="@+id/terrain_burnbabyburn"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_burnbabyburn"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_copy"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_copy"/>
+
+			<Button
+				android:id="@+id/terrain_paste"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_paste"/>
+
+			<Button
+				android:id="@+id/terrain_paste_without_air"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_paste_without_air"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_schematic_import"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_schematic_import"/>
+
+			<Button
+				android:id="@+id/terrain_schematic_export"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_schematic_export"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_hollow_sphere"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_hollow_sphere"/>
+
+			<Button
+				android:id="@+id/terrain_solid_sphere"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_solid_sphere"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_hollow_dome"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_hollow_dome"/>
+
+			<Button
+				android:id="@+id/terrain_solid_dome"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_solid_dome"/>
+
+			<Button
+				android:id="@+id/terrain_cylinder"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_cylinder"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_hollow_cuboid"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_hollow_cuboid"/>
+
+			<Button
+				android:id="@+id/terrain_hollow_pyramid"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_hollow_pyramid"/>
+
+			<Button
+				android:id="@+id/terrain_solid_pyramid"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_solid_pyramid"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/terrain_fix_holes"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_fix_holes"/>
+
+			<Button
+				android:id="@+id/terrain_generate_map"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/terrain_generate_map"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:textSize="20.0sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_experimental"/>
+
+		<TextView
+			android:textSize="16.0sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/terrain_for_help"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

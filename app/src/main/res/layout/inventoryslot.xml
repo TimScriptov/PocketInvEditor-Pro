@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin="10dp">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_id"/>
+
+	<EditText
+		android:id="@+id/slot_identry"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:numeric="signed"/>
+
+	<Button
+		android:id="@+id/slot_browseitemid"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_id_browse"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_damage"/>
+
+	<EditText
+		android:id="@+id/slot_damageentry"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:numeric="signed"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_count"/>
+
+	<EditText
+		android:id="@+id/slot_countentry"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:numeric="signed"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/slot_fillslot"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/slot_fillslot"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/slot_maxcount"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/slot_maxcountslot"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

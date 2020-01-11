@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin="10dp">
+
+	<TextView
+		android:textSize="16.0pt"
+		android:id="@+id/main_world_name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/loading"/>
+
+	<TextView
+		android:textSize="20.0sp"
+		android:id="@+id/main_lastplayed"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left|center">
+
+		<TextView
+			android:textSize="20.0sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/seed"
+			android:layout_weight="1.0"/>
+
+		<TextView
+			android:id="@+id/main_seed"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:maxLines="1"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:enabled="false"
+			android:id="@+id/main_copy_seed"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/copy_seed"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<Button
+		android:enabled="false"
+		android:id="@+id/main_edit_inventory"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/edit_inventory"/>
+
+	<Button
+		android:enabled="false"
+		android:id="@+id/main_backup"
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/backup"/>
+
+	<Button
+		android:enabled="false"
+		android:id="@+id/main_world_info"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/main_edit_world_info"/>
+
+	<Button
+		android:enabled="false"
+		android:id="@+id/main_entities_info"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/entities_info"/>
+
+	<Button
+		android:enabled="false"
+		android:id="@+id/main_view_tileentities"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/main_view_tileentities"/>
+
+	<Button
+		android:enabled="false"
+		android:id="@+id/main_edit_terrain"
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/main_edit_terrain"/>
+
+</LinearLayout>
+

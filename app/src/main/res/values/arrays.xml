@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="world_info_generators">
+		<item>@string/world_info_generator_old</item>
+		<item>@string/world_info_generator_infinite</item>
+		<item>@string/world_info_generator_flat</item>
+	</string-array>
+	<string-array name="entities_animal_types">
+		<item>@string/entity_chicken</item>
+		<item>@string/entity_cow</item>
+		<item>@string/entity_pig</item>
+		<item>@string/entity_sheep</item>
+		<item>@string/entity_wolf</item>
+		<item>@string/entity_villager</item>
+		<item>@string/entity_mushroom_cow</item>
+		<item>@string/entity_squid</item>
+		<item>@string/entity_rabbit</item>
+		<item>@string/entity_bat</item>
+	</string-array>
+	<string-array name="please_do_not_disassemble_thanks">
+		<item>res/ilient</item>
+	</string-array>
+</resources>

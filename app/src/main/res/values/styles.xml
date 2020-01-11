@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="fileName" parent="@android:style/Widget.TextView">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:gravity">center|left</item>
+		<item name="android:layout_marginLeft">6.0dip</item>
+		<item name="android:layout_marginRight">12.0dip</item>
+		<item name="android:scrollHorizontally">true</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:freezesText">true</item>
+		<item name="android:marqueeRepeatLimit">marquee_forever</item>
+	</style>
+	<style name="fileIcon">
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_marginLeft">12.0dip</item>
+	</style>
+	<style name="AppTheme" parent="@android:style/Theme.Holo.Light" />
+</resources>

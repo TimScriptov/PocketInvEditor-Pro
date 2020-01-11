@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<blocks>
+		<item hex="0" dec="0" name="Air" />
+		<item hex="1" dec="1" name="Stone" />
+		<item hex="1" dec="1" id="1" name="Granite" />
+		<item hex="1" dec="1" id="2" name="Polished Granite" />
+		<item hex="1" dec="1" id="3" name="Diorite" />
+		<item hex="1" dec="1" id="4" name="Polished Diorite" />
+		<item hex="1" dec="1" id="5" name="Andesite" />
+		<item hex="1" dec="1" id="6" name="Polished Andesite" />
+		<item hex="2" dec="2" name="Grass Block" />
+		<item hex="3" dec="3" name="Dirt" />
+		<item hex="4" dec="4" name="Cobblestone" />
+		<item hex="5" dec="5" name="Wooden Plank" />
+		<item hex="6" dec="6" id="0" name="Oak Sapling" />
+		<item hex="6" dec="6" id="1" name="Spruce Sapling" />
+		<item hex="6" dec="6" id="2" name="Birch Sapling" />
+		<item hex="6" dec="6" id="3" name="Jungle Sapling" />
+		<item hex="6" dec="6" id="4" name="Acacia Sapling" />
+		<item hex="6" dec="6" id="5" name="Dark Oak Sapling" />
+		<item hex="7" dec="7" name="Bedrock" />
+		<item hex="8" dec="8" name="Water" />
+		<item hex="9" dec="9" name="Stationary water" />
+		<item hex="A" dec="10" name="Lava" />
+		<item hex="B" dec="11" name="Stationary lava" />
+		<item hex="C" dec="12" name="Sand" />
+		<item hex="C" dec="12" id="1" name="Red Sand" />
+		<item hex="D" dec="13" name="Gravel" />
+		<item hex="E" dec="14" name="Gold Ore" />
+		<item hex="F" dec="15" name="Iron Ore" />
+		<item hex="10" dec="16" name="Coal Ore" />
+		<item hex="11" dec="17" id="0" name="Log" />
+		<item hex="11" dec="17" id="1" name="Redwood (Log)" />
+		<item hex="11" dec="17" id="2" name="Birch (Log)" />
+		<item hex="12" dec="18" id="0" name="Leaves" />
+		<item hex="12" dec="18" id="1" name="Redwood (Leaves)" />
+		<item hex="12" dec="18" id="2" name="Birch (Leaves)" />
+		<item hex="13" dec="19" name="Sponge" />
+		<item hex="14" dec="20" name="Glass" />
+		<item hex="15" dec="21" name="Lapis Lazuli Ore" />
+		<item hex="16" dec="22" name="Lapis Lazuli Block" />
+		<item hex="17" dec="23" name="Dispenser" />
+		<item hex="18" dec="24" id="0" name="Sandstone" />
+		<item hex="18" dec="24" id="1" name="Chiseled Sandstone" />
+		<item hex="18" dec="24" id="2" name="Smooth Sandstone" />
+		<item hex="19" dec="25" name="Note Block" />
+		<item hex="1A" dec="26" name="Bed (Block)" />
+		<item hex="1B" dec="27" name="Powered Rail" />
+		<item hex="1C" dec="28" name="Detector Rail" />
+		<item hex="1E" dec="30" name="Cobweb" />
+		<item hex="1F" dec="31" name="Dead Shrub (Tall Grass Retexture)" />
+		<item hex="20" dec="32" name="Dead Bush" />
+		<item hex="23" dec="35" id="0" name="White Wool" />
+		<item hex="23" dec="35" id="1" name="Orange Wool" />
+		<item hex="23" dec="35" id="2" name="Magenta Wool" />
+		<item hex="23" dec="35" id="3" name="Light Blue Wool" />
+		<item hex="23" dec="35" id="4" name="Yellow Wool" />
+		<item hex="23" dec="35" id="5" name="Lime Green Wool" />
+		<item hex="23" dec="35" id="6" name="Pink Wool" />
+		<item hex="23" dec="35" id="7" name="Gray Wool" />
+		<item hex="23" dec="35" id="8" name="Light Gray Wool" />
+		<item hex="23" dec="35" id="9" name="Cyan Wool" />
+		<item hex="23" dec="35" id="10" name="Purple Wool" />
+		<item hex="23" dec="35" id="11" name="Blue Wool" />
+		<item hex="23" dec="35" id="12" name="Brown Wool" />
+		<item hex="23" dec="35" id="13" name="Green Wool" />
+		<item hex="23" dec="35" id="14" name="Red Wool" />
+		<item hex="23" dec="35" id="15" name="Black Wool" />
+		<item hex="25" dec="37" name="Yellow Flower" />
+		<item hex="26" dec="38" id="0" name="Poppy" />
+		<item hex="26" dec="38" id="1" name="Blue Orchid" />
+		<item hex="26" dec="38" id="2" name="Allium" />
+		<item hex="26" dec="38" id="3" name="Azure Bluet" />
+		<item hex="26" dec="38" id="4" name="Red Tulip" />
+		<item hex="26" dec="38" id="5" name="Orange Tulip" />
+		<item hex="26" dec="38" id="6" name="White Tulip" />
+		<item hex="26" dec="38" id="7" name="Pink Tulip" />
+		<item hex="26" dec="38" id="8" name="Oxeye Daisy" />
+		<item hex="27" dec="39" name="Brown Mushroom" />
+		<item hex="28" dec="40" name="Red Mushroom" />
+		<item hex="29" dec="41" name="Gold Block" />
+		<item hex="2A" dec="42" name="Iron Block" />
+		<item hex="2B" dec="43" id="0" name="Double Slab (Stone)" />
+		<item hex="2B" dec="43" id="1" name="Double Slab (Sandstone)" />
+		<item hex="2B" dec="43" id="2" name="Double Slab (Wood alternate)" />
+		<item hex="2B" dec="43" id="3" name="Double Slab (Cobblestone)" />
+		<item hex="2B" dec="43" id="4" name="Double Slab (Brick)" />
+		<item hex="2B" dec="43" id="5" name="Double Slab (Stone Brick)" />
+		<item hex="2B" dec="43" id="6" name="Double Slab (Stone)" />
+		<item hex="2B" dec="43" id="7" name="Double Slab (Quartz)" />
+		<item hex="2C" dec="44" id="0" name="Slab (Stone)" />
+		<item hex="2C" dec="44" id="1" name="Slab (Sandstone)" />
+		<item hex="2C" dec="44" id="2" name="Slab (Wood alternate)" />
+		<item hex="2C" dec="44" id="3" name="Slab (Cobblestone)" />
+		<item hex="2C" dec="44" id="4" name="Slab (Brick)" />
+		<item hex="2C" dec="44" id="5" name="Slab (Stone Brick)" />
+		<item hex="2C" dec="44" id="6" name="Slab (Stone)" />
+		<item hex="2C" dec="44" id="7" name="Slab (Quartz)" />
+		<item hex="2D" dec="45" name="Brick Block" />
+		<item hex="2E" dec="46" name="TNT" />
+		<item hex="2F" dec="47" name="Bookshelf" />
+		<item hex="30" dec="48" name="Moss Stone (Mossy Cobblestone)" />
+		<item hex="31" dec="49" name="Obsidian" />
+		<item hex="32" dec="50" name="Torch" />
+		<item hex="33" dec="51" name="Fire" />
+		<item hex="34" dec="52" name="Monster Spawner" />
+		<item hex="35" dec="53" name="Wooden Stairs" />
+		<item hex="36" dec="54" name="Chest" />
+		<item hex="37" dec="55" name="Redstone Dust" />
+		<item hex="38" dec="56" name="Diamond Ore" />
+		<item hex="39" dec="57" name="Diamond Block" />
+		<item hex="3A" dec="58" name="Crafting Table" />
+		<item hex="3B" dec="59" name="Crops (Block)" />
+		<item hex="3C" dec="60" name="Farmland" />
+		<item hex="3D" dec="61" name="Furnace" />
+		<item hex="3E" dec="62" name="Burning Furnace" />
+		<item hex="3F" dec="63" name="Sign Post" />
+		<item hex="40" dec="64" name="Wooden Door (Block)" />
+		<item hex="41" dec="65" name="Ladder" />
+		<item hex="42" dec="66" name="Rail" />
+		<item hex="43" dec="67" name="Cobblestone Stairs" />
+		<item hex="44" dec="68" name="Wall Sign" />
+		<item hex="45" dec="69" name="Lever" />
+		<item hex="46" dec="70" name="Stone Pressure Plate" />
+		<item hex="47" dec="71" name="Iron Door (Block)" />
+		<item hex="48" dec="72" name="Wooden Pressure Plate" />
+		<item hex="49" dec="73" name="Redstone Ore" />
+		<item hex="4A" dec="74" name="Glowing Redstone Ore" />
+		<item hex="4B" dec="75" name="Redstone Torch" />
+		<item hex="4C" dec="76" name="Redstone Torch" />
+		<item hex="4D" dec="77" name="Button" />
+		<item hex="4E" dec="78" name="Snow" />
+		<item hex="4F" dec="79" name="Ice" />
+		<item hex="50" dec="80" name="Snow Block" />
+		<item hex="51" dec="81" name="Cactus" />
+		<item hex="52" dec="82" name="Clay Block" />
+		<item hex="53" dec="83" name="Sugar Cane" />
+		<item hex="55" dec="85" name="Fence" />
+		<item hex="56" dec="86" name="Pumpkin" />
+		<item hex="57" dec="87" name="Netherrack" />
+		<item hex="58" dec="88" name="Soul Sand" />
+		<item hex="59" dec="89" name="Glowstone" />
+		<item hex="5A" dec="90" name="Portal" />
+		<item hex="5B" dec="91" name="Jack 'o' Lantern" />
+		<item hex="5C" dec="92" name="Cake block" />
+		<item hex="5D" dec="93" name="Redstone Repeater (off)" />
+		<item hex="5E" dec="94" name="Redstone Repeater (on)" />
+		<item hex="5F" dec="95" name="Invisible bedrock" />
+		<item hex="60" dec="96" name="Trapdoor" />
+		<item hex="61" dec="97" id="0" name="Stone Monster Egg" />
+		<item hex="61" dec="97" id="1" name="Cobblestone Monster Egg" />
+		<item hex="61" dec="97" id="2" name="Stone Brick Monster Egg" />
+		<item hex="61" dec="97" id="3" name="Mossy Stone Brick Monster Egg" />
+		<item hex="61" dec="97" id="4" name="Cracked Stone Monster Egg" />
+		<item hex="61" dec="97" id="5" name="Chiseled Stone Monster Egg" />
+		<item hex="62" dec="98" id="0" name="Stone Bricks" />
+		<item hex="62" dec="98" id="1" name="Stone Bricks (mossy)" />
+		<item hex="62" dec="98" id="2" name="Stone Bricks (cracked)" />
+		<item hex="63" dec="99" name="Huge Brown Mushroom" />
+		<item hex="64" dec="100" name="Huge Red Mushroom" />
+		<item hex="65" dec="101" name="Iron Bars" />
+		<item hex="66" dec="102" name="Glass Pane" />
+		<item hex="67" dec="103" name="Melon" />
+		<item hex="68" dec="104" name="Pumpkin Stem" />
+		<item hex="69" dec="105" name="Melon Stem" />
+		<item hex="6A" dec="106" name="Vines" />
+		<item hex="6B" dec="107" name="Fence Gate" />
+		<item hex="6C" dec="108" name="Brick Stairs" />
+		<item hex="6D" dec="109" name="Stone Brick Stairs" />
+		<item hex="6E" dec="110" name="Mycelium" />
+		<item hex="6F" dec="111" name="Lily Pad" />
+		<item hex="70" dec="112" name="Nether Brick (block)" />
+		<item hex="71" dec="113" name="Nether Brick Fence" />
+		<item hex="72" dec="114" name="Nether Brick Stairs" />
+		<item hex="73" dec="115" name="Nether Wart" />
+		<item hex="74" dec="116" name="Enchantment Table" />
+		<item hex="75" dec="117" name="Brewing Stand" />
+		<item hex="76" dec="118" name="Cauldron" />
+		<item hex="78" dec="120" name="End Portal Frame" />
+		<item hex="79" dec="121" name="End Stone" />
+		<item hex="7B" dec="123" name="Redstone Lamp" />
+		<item hex="7C" dec="124" name="Redstone Lamp" />
+		<item hex="7D" dec="125" name="Dropper" />
+		<item hex="7E" dec="126" name="Cake" />
+		<item hex="7F" dec="127" name="Cocoa" />
+		<item hex="80" dec="128" name="Sandstone Stairs" />
+		<item hex="81" dec="129" name="Emerald Ore" />
+		<item hex="83" dec="131" name="Tripwire Hook" />
+		<item hex="84" dec="132" name="Tripwire" />
+		<item hex="85" dec="133" name="Block of Emerald" />
+		<item hex="86" dec="134" name="Spruce Stairs" />
+		<item hex="87" dec="135" name="Birch Stairs" />
+		<item hex="88" dec="136" name="Jungle Stairs" />
+		<item hex="8B" dec="139" name="Cobblestone Wall" />
+		<item hex="8C" dec="140" name="Flower Pot" />
+		<item hex="8D" dec="141" name="Carrot" />
+		<item hex="8E" dec="142" name="Potato" />
+		<item hex="8F" dec="143" name="Button" />
+		<item hex="90" dec="144" name="Head" />
+		<item hex="91" dec="145" name="Anvil" />
+		<item hex="92" dec="146" name="Trapped Chest" />
+		<item hex="93" dec="147" name="Weighted Pressure Plate (Light)" />
+		<item hex="94" dec="148" name="Weighted Pressure Plate (Heavy)" />
+		<item hex="95" dec="149" name="Redstone Comparator (off)" />
+		<item hex="96" dec="150" name="Redstone Comparator (on)" />
+		<item hex="97" dec="151" name="Daylight Sensor" />
+		<item hex="98" dec="152" name="Block of Redstone" />
+		<item hex="99" dec="153" name="Nether Quartz Ore" />
+		<item hex="9A" dec="154" name="Hopper" />
+		<item hex="9B" dec="155" id="0" name="Block of Quartz" />
+		<item hex="9B" dec="155" id="1" name="Chiseled Quartz Block" />
+		<item hex="9B" dec="155" id="2" name="Pillar Quartz Block" />
+		<item hex="9C" dec="156" name="Quartz Stairs" />
+		<item hex="9D" dec="157" name="Wooden Double Slab" />
+		<item hex="9E" dec="158" name="Wooden Slab" />
+		<item hex="9F" dec="159" id="0" name="White Stained Clay" />
+		<item hex="9F" dec="159" id="1" name="Orange Stained Clay" />
+		<item hex="9F" dec="159" id="2" name="Magenta Stained Clay" />
+		<item hex="9F" dec="159" id="3" name="Light Blue Stained Clay" />
+		<item hex="9F" dec="159" id="4" name="Yellow Stained Clay" />
+		<item hex="9F" dec="159" id="5" name="Lime Green Stained Clay" />
+		<item hex="9F" dec="159" id="6" name="Pink Stained Clay" />
+		<item hex="9F" dec="159" id="7" name="Gray Stained Clay" />
+		<item hex="9F" dec="159" id="8" name="Light Gray Stained Clay" />
+		<item hex="9F" dec="159" id="9" name="Cyan Stained Clay" />
+		<item hex="9F" dec="159" id="10" name="Purple Stained Clay" />
+		<item hex="9F" dec="159" id="11" name="Blue Stained Clay" />
+		<item hex="9F" dec="159" id="12" name="Brown Stained Clay" />
+		<item hex="9F" dec="159" id="13" name="Green Stained Clay" />
+		<item hex="9F" dec="159" id="14" name="Red Stained Clay" />
+		<item hex="9F" dec="159" id="15" name="Black Stained Clay" />
+		<item hex="A1" dec="161" id="0" name="Acacia Leaves" />
+		<item hex="A1" dec="161" id="1" name="Dark Oak Leaves" />
+		<item hex="A2" dec="162" id="0" name="Acacia Wood" />
+		<item hex="A2" dec="162" id="1" name="Dark Oak Wood" />
+		<item hex="A3" dec="163" name="Acacia Wood Stairs" />
+		<item hex="A4" dec="164" name="Dark Oak Wood Stairs" />
+		<item hex="A5" dec="165" name="Slime Block" />
+		<item hex="A7" dec="167" name="Iron Trapdoor" />
+		<item hex="AA" dec="170" name="Hay Bale" />
+		<item hex="AB" dec="171" id="0" name="White Carpet" />
+		<item hex="AB" dec="171" id="1" name="Orange Carpet" />
+		<item hex="AB" dec="171" id="2" name="Magenta Carpet" />
+		<item hex="AB" dec="171" id="3" name="Light Blue Carpet" />
+		<item hex="AB" dec="171" id="4" name="Yellow Carpet" />
+		<item hex="AB" dec="171" id="5" name="Lime Green Carpet" />
+		<item hex="AB" dec="171" id="6" name="Pink Carpet" />
+		<item hex="AB" dec="171" id="7" name="Gray Carpet" />
+		<item hex="AB" dec="171" id="8" name="Light Gray Carpet" />
+		<item hex="AB" dec="171" id="9" name="Cyan Carpet" />
+		<item hex="AB" dec="171" id="10" name="Purple Carpet" />
+		<item hex="AB" dec="171" id="11" name="Blue Carpet" />
+		<item hex="AB" dec="171" id="12" name="Brown Carpet" />
+		<item hex="AB" dec="171" id="13" name="Green Carpet" />
+		<item hex="AB" dec="171" id="14" name="Red Carpet" />
+		<item hex="AB" dec="171" id="15" name="Black Carpet" />
+		<item hex="AC" dec="172" name="Hardened Clay" />
+		<item hex="AD" dec="173" name="Block of Coal" />
+		<item hex="AE" dec="174" name="Packed Ice" />
+		<item hex="AF" dec="175" id="0" name="Sunflower" />
+		<item hex="AF" dec="175" id="1" name="Lilac" />
+		<item hex="AF" dec="175" id="2" name="Double Tallgrass" />
+		<item hex="AF" dec="175" id="3" name="Large Fern" />
+		<item hex="AF" dec="175" id="4" name="Rose Bush" />
+		<item hex="AF" dec="175" id="5" name="Peony" />
+		<item hex="B2" dec="178" name="Daylight Sensor" />
+		<item hex="B3" dec="179" name="Red Sandstone" />
+		<item hex="B4" dec="180" name="Red Sandstone Stairs" />
+		<item hex="B5" dec="181" name="Red Sandstone Slab" />
+		<item hex="B6" dec="182" name="Red Sandstone Slab" />
+		<item hex="B7" dec="183" name="Spruce Fence Gate" />
+		<item hex="B8" dec="184" name="Birch Fence Gate" />
+		<item hex="B9" dec="185" name="Jungle Fence Gate" />
+		<item hex="BA" dec="186" name="Dark Oak Fence Gate" />
+		<item hex="BB" dec="187" name="Acacia Fence Gate" />
+		<item hex="C1" dec="193" name="Spruce Door" />
+		<item hex="C2" dec="194" name="Birch Door" />
+		<item hex="C3" dec="195" name="Jungle Door" />
+		<item hex="C4" dec="196" name="Acacia Door" />
+		<item hex="C5" dec="197" name="Dark Oak Door" />
+		<item hex="C6" dec="198" name="Grass path" />
+		<item hex="C7" dec="199" name="Item Frame" />
+		<item hex="F3" dec="243" name="Podzol" />
+		<item hex="F4" dec="244" name="Beetroot" />
+		<item hex="F5" dec="245" name="Stone Cutter" />
+		<item hex="F6" dec="246" name="Glowing Obsidian" />
+		<item hex="F7" dec="247" name="Nether Reactor Core" />
+		<item hex="F8" dec="248" name="'Update Game' block 1" />
+		<item hex="F9" dec="249" name="'Update Game' block 2" />
+		<item hex="FD" dec="253" name="Glitch Grass (grass_carried)" />
+		<item hex="FE" dec="254" name="Glitch Leaves (leaves_carried)" />
+		<item hex="FF" dec="255" name="Glitch Stone (info_reserved6)" />
+	</blocks>
+	<items>
+		<item hex="100" dec="256" name="Iron Shovel" />
+		<item hex="101" dec="257" name="Iron Pickaxe" />
+		<item hex="102" dec="258" name="Iron Axe" />
+		<item hex="103" dec="259" name="Flint and Steel" />
+		<item hex="104" dec="260" name="Apple" />
+		<item hex="105" dec="261" name="Bow" />
+		<item hex="106" dec="262" name="Arrow" />
+		<item hex="107" dec="263" id="0" name="Coal" />
+		<item hex="107" dec="263" id="1" name="Charcoal" />
+		<item hex="108" dec="264" name="Diamond" />
+		<item hex="109" dec="265" name="Iron Ingot" />
+		<item hex="10A" dec="266" name="Gold Ingot" />
+		<item hex="10B" dec="267" name="Iron Sword" />
+		<item hex="10C" dec="268" name="Wooden Sword" />
+		<item hex="10D" dec="269" name="Wooden Shovel" />
+		<item hex="10E" dec="270" name="Wooden Pickaxe" />
+		<item hex="10F" dec="271" name="Wooden Axe" />
+		<item hex="110" dec="272" name="Stone Sword" />
+		<item hex="111" dec="273" name="Stone Shovel" />
+		<item hex="112" dec="274" name="Stone Pickaxe" />
+		<item hex="113" dec="275" name="Stone Axe" />
+		<item hex="114" dec="276" name="Diamond Sword" />
+		<item hex="115" dec="277" name="Diamond Shovel" />
+		<item hex="116" dec="278" name="Diamond Pickaxe" />
+		<item hex="117" dec="279" name="Diamond Axe" />
+		<item hex="118" dec="280" name="Stick" />
+		<item hex="119" dec="281" name="Bowl" />
+		<item hex="11A" dec="282" name="Mushroom Soup" />
+		<item hex="11B" dec="283" name="Gold Sword" />
+		<item hex="11C" dec="284" name="Gold Shovel" />
+		<item hex="11D" dec="285" name="Gold Pickaxe" />
+		<item hex="11E" dec="286" name="Gold Axe" />
+		<item hex="11F" dec="287" name="String" />
+		<item hex="120" dec="288" name="Feather" />
+		<item hex="121" dec="289" name="Gunpowder" />
+		<item hex="122" dec="290" name="Wooden Hoe" />
+		<item hex="123" dec="291" name="Stone Hoe" />
+		<item hex="124" dec="292" name="Iron Hoe" />
+		<item hex="125" dec="293" name="Diamond Hoe" />
+		<item hex="126" dec="294" name="Gold Hoe" />
+		<item hex="127" dec="295" name="Seeds (Wheat)" />
+		<item hex="128" dec="296" name="Wheat" />
+		<item hex="129" dec="297" name="Bread" />
+		<item hex="12A" dec="298" name="Leather Helmet" />
+		<item hex="12B" dec="299" name="Leather Chestplate" />
+		<item hex="12C" dec="300" name="Leather Leggings" />
+		<item hex="12D" dec="301" name="Leather Boots" />
+		<item hex="12E" dec="302" name="Chainmail Helmet" />
+		<item hex="12F" dec="303" name="Chainmail Chestplate" />
+		<item hex="130" dec="304" name="Chainmail Leggings" />
+		<item hex="131" dec="305" name="Chainmail Boots" />
+		<item hex="132" dec="306" name="Iron Helmet" />
+		<item hex="133" dec="307" name="Iron Chestplate" />
+		<item hex="134" dec="308" name="Iron Leggings" />
+		<item hex="135" dec="309" name="Iron Boots" />
+		<item hex="136" dec="310" name="Diamond Helmet" />
+		<item hex="137" dec="311" name="Diamond Chestplate" />
+		<item hex="138" dec="312" name="Diamond Leggings" />
+		<item hex="139" dec="313" name="Diamond Boots" />
+		<item hex="13A" dec="314" name="Gold Helmet" />
+		<item hex="13B" dec="315" name="Gold Chestplate" />
+		<item hex="13C" dec="316" name="Gold Leggings" />
+		<item hex="13D" dec="317" name="Gold Boots" />
+		<item hex="13E" dec="318" name="Flint" />
+		<item hex="13F" dec="319" name="Raw Porkchop" />
+		<item hex="140" dec="320" name="Cooked Porkchop" />
+		<item hex="141" dec="321" name="Painting" />
+		<item hex="142" dec="322" name="Golden Apple" />
+		<item hex="143" dec="323" name="Sign" />
+		<item hex="144" dec="324" name="Wooden Door" />
+		<item hex="145" dec="325" name="Bucket" />
+		<item hex="145" dec="325" id="1" name="Milk Bucket" />
+		<item hex="145" dec="325" id="8" name="Water Bucket" />
+		<item hex="145" dec="325" id="10" name="Lava Bucket" />
+		<item hex="148" dec="328" name="Minecart" />
+		<item hex="149" dec="329" name="Saddle" />
+		<item hex="14A" dec="330" name="Iron Door" />
+		<item hex="14B" dec="331" name="Redstone" />
+		<item hex="14C" dec="332" name="Snowball" />
+		<item hex="14D" dec="333" name="Boat" />
+		<item hex="14E" dec="334" name="Leather" />
+		<item hex="150" dec="336" name="Clay Brick" />
+		<item hex="151" dec="337" name="Clay" />
+		<item hex="152" dec="338" name="Sugar Cane (Reed)" />
+		<item hex="153" dec="339" name="Paper" />
+		<item hex="154" dec="340" name="Book" />
+		<item hex="155" dec="341" name="Slime Ball" />
+		<item hex="156" dec="342" name="Minecart with Chest" />
+		<item hex="158" dec="344" name="Egg" />
+		<item hex="159" dec="345" name="Compass" />
+		<item hex="15A" dec="346" name="Fishing Rod" />
+		<item hex="15B" dec="347" name="Clock" />
+		<item hex="15C" dec="348" name="Glowstone Dust (Lightstone)" />
+		<item hex="15D" dec="349" name="Raw Fish" />
+		<item hex="15D" dec="349" id="1" name="Raw Salmon" />
+		<item hex="15D" dec="349" id="2" name="Clownfish" />
+		<item hex="15D" dec="349" id="3" name="Pufferfish" />
+		<item hex="15E" dec="350" name="Cooked Fish" />
+		<item hex="15E" dec="350" id="1" name="Cooked Salmon" />
+		<item hex="15F" dec="351" id="0" name="Ink Sack (Dye)" />
+		<item hex="15F" dec="351" id="1" name="Rose Red (Dye)" />
+		<item hex="15F" dec="351" id="2" name="Cactus Green (Dye)" />
+		<item hex="15F" dec="351" id="3" name="Cocoa Beans (Dye)" />
+		<item hex="15F" dec="351" id="4" name="Lapis Lazuli (Dye)" />
+		<item hex="15F" dec="351" id="5" name="Purple (Dye)" />
+		<item hex="15F" dec="351" id="6" name="Cyan (Dye)" />
+		<item hex="15F" dec="351" id="7" name="Light Gray (Dye)" />
+		<item hex="15F" dec="351" id="8" name="Gray (Dye)" />
+		<item hex="15F" dec="351" id="9" name="Pink (Dye)" />
+		<item hex="15F" dec="351" id="10" name="Lime (Dye)" />
+		<item hex="15F" dec="351" id="11" name="Dandelion Yellow (Dye)" />
+		<item hex="15F" dec="351" id="12" name="Light Blue (Dye)" />
+		<item hex="15F" dec="351" id="13" name="Magenta (Dye)" />
+		<item hex="15F" dec="351" id="14" name="Orange (Dye)" />
+		<item hex="15F" dec="351" id="15" name="Bone Meal (Dye)" />
+		<item hex="160" dec="352" name="Bone" />
+		<item hex="161" dec="353" name="Sugar" />
+		<item hex="162" dec="354" name="Cake" />
+		<item hex="163" dec="355" name="Bed" />
+		<item hex="164" dec="356" name="Redstone Repeater" />
+		<item hex="165" dec="357" name="Cookie" />
+		<item hex="166" dec="358" name="Map" />
+		<item hex="167" dec="359" name="Shears" />
+		<item hex="168" dec="360" name="Melon (slice)" />
+		<item hex="169" dec="361" name="Pumpkin Seeds" />
+		<item hex="16A" dec="362" name="Melon Seeds" />
+		<item hex="16B" dec="363" name="Raw Beef" />
+		<item hex="16C" dec="364" name="Steak" />
+		<item hex="16D" dec="365" name="Raw Chicken" />
+		<item hex="16E" dec="366" name="Cooked Chicken" />
+		<item hex="16F" dec="367" name="Rotten Flesh" />
+		<item hex="171" dec="369" name="Blaze Rod" />
+		<item hex="172" dec="370" name="Ghast Tear" />
+		<item hex="173" dec="371" name="Gold Nugget" />
+		<item hex="174" dec="372" name="Nether Wart" />
+		<item hex="175" dec="373" name="Water Bottle" />
+		<item hex="176" dec="374" name="Glass Bottle" />
+		<item hex="177" dec="375" name="Spider Eye" />
+		<item hex="178" dec="376" name="Fermented Spider Eye" />
+		<item hex="179" dec="377" name="Blaze Powder" />
+		<item hex="17A" dec="378" name="Magma Cream" />
+		<item hex="17B" dec="379" name="Brewing Stand" />
+		<item hex="17C" dec="380" name="Cauldron" />
+		<item hex="17E" dec="382" name="Glistering Melon" />
+		<item hex="17F" dec="383" id="10" name="Spawn Chicken" />
+		<item hex="17F" dec="383" id="11" name="Spawn Cow" />
+		<item hex="17F" dec="383" id="12" name="Spawn Pig" />
+		<item hex="17F" dec="383" id="13" name="Spawn Sheep" />
+		<item hex="17F" dec="383" id="14" name="Spawn Wolf" />
+		<item hex="17F" dec="383" id="15" name="Spawn Villager" />
+		<item hex="17F" dec="383" id="16" name="Spawn Mooshroom" />
+		<item hex="17F" dec="383" id="17" name="Spawn Squid" />
+		<item hex="17F" dec="383" id="18" name="Spawn Rabbit" />
+		<item hex="17F" dec="383" id="19" name="Spawn Bat" />
+		<item hex="17F" dec="383" id="20" name="Spawn Iron Golem" />
+		<item hex="17F" dec="383" id="21" name="Spawn Snow Golem" />
+		<item hex="17F" dec="383" id="22" name="Spawn Ocelot" />
+		<item hex="17F" dec="383" id="32" name="Spawn Zombie" />
+		<item hex="17F" dec="383" id="33" name="Spawn Creeper" />
+		<item hex="17F" dec="383" id="34" name="Spawn Skeleton" />
+		<item hex="17F" dec="383" id="35" name="Spawn Spider" />
+		<item hex="17F" dec="383" id="36" name="Spawn Zombie Pigman" />
+		<item hex="17F" dec="383" id="37" name="Spawn Slime" />
+		<item hex="17F" dec="383" id="38" name="Spawn Enderman" />
+		<item hex="17F" dec="383" id="39" name="Spawn Silverfish" />
+		<item hex="17F" dec="383" id="40" name="Spawn Cave Spider" />
+		<item hex="17F" dec="383" id="41" name="Spawn Ghast" />
+		<item hex="17F" dec="383" id="42" name="Spawn Magma Cube" />
+		<item hex="17F" dec="383" id="43" name="Spawn Blaze" />
+		<item hex="17F" dec="383" id="44" name="Spawn Zombie Villager" />
+		<item hex="17F" dec="383" id="45" name="Spawn Witch" />
+		<item hex="180" dec="384" name="Bottle o' Enchanting" />
+		<item hex="184" dec="388" name="Emerald" />
+		<item hex="185" dec="389" name="Item Frame" />
+		<item hex="186" dec="390" name="Flower Pot" />
+		<item hex="187" dec="391" name="Carrot" />
+		<item hex="188" dec="392" name="Potato" />
+		<item hex="189" dec="393" name="Baked Potato" />
+		<item hex="18A" dec="394" name="Poisonous Potato" />
+		<item hex="18B" dec="395" name="Empty Map" />
+		<item hex="18C" dec="396" name="Golden Carrot" />
+		<item hex="18D" dec="397" name="Skeleton Skull" />
+		<item hex="190" dec="400" name="Pumpkin Pie" />
+		<item hex="193" dec="403" name="Enchanted Book" />
+		<item hex="194" dec="404" name="Redstone Comparator" />
+		<item hex="195" dec="405" name="Nether Brick" />
+		<item hex="196" dec="406" name="Nether Quartz" />
+		<item hex="197" dec="407" name="Minecart with TNT" />
+		<item hex="198" dec="408" name="Minecart with Hopper" />
+		<item hex="19A" dec="410" name="Hopper" />
+		<item hex="19B" dec="411" name="Raw Rabbit" />
+		<item hex="19C" dec="412" name="Cooked Rabbit" />
+		<item hex="19D" dec="413" name="Rabbit Stew" />
+		<item hex="19E" dec="414" name="Rabbit's Foot" />
+		<item hex="19F" dec="415" name="Rabbit Hide" />
+		<item hex="1AB" dec="427" name="Spruce Door" />
+		<item hex="1AC" dec="428" name="Birch Door" />
+		<item hex="1AD" dec="429" name="Jungle Door" />
+		<item hex="1AE" dec="430" name="Acacia Door" />
+		<item hex="1AF" dec="431" name="Dark Oak Door" />
+		<item hex="1B6" dec="438" name="Splash Water Bottle" />
+		<item hex="1B7" dec="439" name="Camera" />
+		<item hex="1C9" dec="457" name="Beetroot" />
+		<item hex="1CA" dec="458" name="Beetroots seeds" />
+		<item hex="1CB" dec="459" name="Beetroot Soup" />
+		<item hex="1CC" dec="460" name="Raw Salmon" />
+		<item hex="1CD" dec="461" name="Clownfish" />
+		<item hex="1CE" dec="462" name="Pufferfish" />
+		<item hex="1CF" dec="463" name="Cooked Salmon" />
+		<item hex="1D2" dec="466" name="Golden Apple" />
+	</items>
+</data>

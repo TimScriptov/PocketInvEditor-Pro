@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin="10dp">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_id"/>
+
+	<EditText
+		android:id="@+id/terrain_id_entry"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:numeric="signed"/>
+
+	<Button
+		android:id="@+id/terrain_block_browse"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_id_browse"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/item_damage"/>
+
+	<EditText
+		android:id="@+id/terrain_data_entry"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:numeric="signed"/>
+
+	<Button
+		android:id="@+id/terrain_ok"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@android:string/ok"/>
+
+</LinearLayout>
+

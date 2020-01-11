@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="off_white">#ffeeeeee</color>
+<color name="material_grey_300">#ffeeeeee</color>
+<color name="theme_primary">#ff4caf50</color>
+<color name="theme_primary_dark">#ff388e3c</color>
+<color name="grid_background">@color/material_grey_300</color>
+<color name="grid_protect_background">#88000000</color>
+<color name="primary_text_default_material_dark">#ffffffff</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="10dp">
+
+	<TextView
+		android:textSize="20.0sp"
+		android:id="@+id/entities_main_count"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/loading"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/entities_spawn_mobs"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/entities_spawn_mobs"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/entities_spawn_drops"
+			android:visibility="gone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/entities_spawn_drops"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/entities_remove_entities"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/entities_remove_entities"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/entities_replace_entities"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/entities_replace_entities"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/entities_cow_tipping"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/entities_mob_tipping"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:id="@+id/entities_apocowlypse"
+			android:visibility="gone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/apocowlypse"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/entities_babyfy_mobs"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/entities_babyfy_mobs"/>
+
+	<Button
+		android:id="@+id/entities_age_all_animals"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/entities_age_all_animals"/>
+
+	<Button
+		android:id="@+id/entities_dye_all_sheep"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/entities_dye_all_sheep"/>
+
+	<Button
+		android:id="@+id/entities_remove_all_entities"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/entities_remove_all_entities"/>
+
+</LinearLayout>
+
